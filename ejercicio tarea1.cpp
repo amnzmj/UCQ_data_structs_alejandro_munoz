@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 class RawArray {
 private:
     int* arreglo;
@@ -12,7 +11,7 @@ public:
     int accederElemento(int posicion) const;
     void imprimirArreglo() const;
     void inicializarArreglo();
-};
+}; 
 
 RawArray::RawArray(int in_Size) : size(in_Size)
 {
