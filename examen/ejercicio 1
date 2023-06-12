@@ -13,6 +13,7 @@ private:
 public:
     RawArray(const std::vector<int>& inputArr) : arr(inputArr) {}
 
+
     void AssignEveryXElements(int value, int interval) {
         for (int i = interval - 1; i < arr.size(); i += interval) {
             arr[i] = value;
