@@ -1,5 +1,17 @@
-#include <iostream>
+/*
+EQUIPO JORDAN GABRIEL
+Asignación del valor V en la posición X
+    Acceder al elemento en la posición solicitada y asignarle el valor V.
 
+Criterios de evaluación: 
+1) Código limpio, comentado. (
+
+Esto afecta la calificación)
+   
+2) Si meto parámetros a las funciones que no deberían ser válidos, sus programas deben de evitar que truene el programa, deben decirme por qué no sería válido dicho parámetro (o parámetros), y, dentro de lo posible, terminar la ejecución.
+*/
+#include <iostream>
+ 
 class RawArray {
 private:
     int* arreglo;
@@ -46,7 +58,7 @@ void RawArray::inicializarArreglo()
         *(ptr + i) = i;
     }
 }
-
+//--------------------------------------------------------
 int main()
 {
     int size;
